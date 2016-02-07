@@ -32,7 +32,7 @@ public class VS980RIL extends LgeLteRIL implements CommandsInterface {
 
     public VS980RIL(Context context, int preferredNetworkType,
             int cdmaSubscription, Integer instanceId) {
-        this(context, preferredNetworkType, cdmaSubscription);
+        this(context, preferredNetworkType, cdmaSubscription, instanceId);
     }
 
     public VS980RIL(Context context, int networkMode, int cdmaSubscription) {
